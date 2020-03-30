@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Justin Beringer / blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Justin Beringer`,
+      summary: `lives and works in Victoria, BC as a full stack developer.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Writings on code and other interests.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
       twitter: `kylemathews`,
@@ -26,6 +26,7 @@ module.exports = {
         name: `assets`,
       },
     },
+    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -80,4 +81,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-}
+};
